@@ -1,3 +1,7 @@
+function home(req, res){
+    res.render('home')
+}
+
 function main(req, res){
     res.render("register");
 }
@@ -8,5 +12,6 @@ function login(req, res){
 
 module.exports = {
     login,
-    main
+    main,
+    home
 }
